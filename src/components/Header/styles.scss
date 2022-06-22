@@ -1,0 +1,25 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6rem;
+    background-color: #99A32C;
+
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+
+    font-weight: 700;
+    font-size: 2rem;
+
+    .logo{
+        a{
+            transition: color .3s;
+            &:hover{
+                color: var(--#EBBE1E);
+            }
+        }
+
+    }
+}

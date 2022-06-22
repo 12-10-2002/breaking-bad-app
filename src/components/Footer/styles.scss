@@ -1,0 +1,27 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background-color: #99A32C;
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    
+    font-weight: 700;
+    font-size: 1rem;
+
+    .social{
+        display: flex;
+        list-style: none;
+        li{
+            font-size: 1.75rem;
+            line-height: 1;
+            margin-left: 1rem; 
+        }
+    }
+
+
+    
+}
